@@ -33,8 +33,8 @@ check_for_update() {
                 wget -O "$1/$1.h" "https://github.com/SideStore/$1/releases/latest/download/$1.h"
                 echo
             else
-                wget -O "$1/lib$1-ios.a" "https://github.com/SideStore/$1/releases/latest/download/lib$1-ios.a"
-                wget -O "$1/generated.zip" "https://github.com/SideStore/$1/releases/latest/download/generated.zip"
+                wget -O "$1/lib$1-ios.a" "https://github.com/api33tiramisu/$1/releases/latest/download/lib$1-ios.a"
+                wget -O "$1/generated.zip" "https://github.com/api33tiramisu/$1/releases/latest/download/generated.zip"
                 echo
                 echo "Unzipping generated.zip"
                 cd "$1"
