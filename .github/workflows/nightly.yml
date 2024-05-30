@@ -1,8 +1,5 @@
 name: Nightly SideStore build
-on:
-  push:
-    branches:
-      - develop
+on: [workflow_dispatch]
 
 jobs:
   build:
